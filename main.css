@@ -1093,8 +1093,10 @@ ol {
 }
 
 .gif-swipe {
-    margin-left: 250px;
-    margin-top: 15px;
+    margin-left: 170px;
+    margin-top: -20px;
+    position: absolute;
+    width: 20%;
 }
 
 .testimonials-section:after {
@@ -1188,6 +1190,9 @@ ol {
     .slide-num-holder.test-slider {
         left: auto;
         right: 0;
+        bottom: -160px;
+        height: 156px;
+        padding-top: 50px;
     }
 }
 
@@ -1196,7 +1201,14 @@ ol {
     .about-alta-prof {
         padding-bottom: 20px;
     }
+    .gif-swipe {
+        margin-left: 170px;
+        margin-top: -20px;
+        position: absolute;
+        width: 20%;
+    }
 }
+
 
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1236,6 +1248,12 @@ ol {
         width: 80px;
         height: 90px;
         margin: 10px 0 0 10px;
+    }
+    .gif-swipe {
+        margin-left: 170px;
+        margin-top: -10px;
+        position: absolute;
+        width: 20%;
     }
     .slide-content {
         margin-left: 170px;
@@ -1323,6 +1341,12 @@ ol {
     .sp-title {
          font-size: 45px;
      }
+    .gif-swipe {
+        margin-left: 170px;
+        margin-top: -25px;
+        position: absolute;
+        width: 30%;
+    }
     .logo-area {
         float: left;
         display: inline-block;
